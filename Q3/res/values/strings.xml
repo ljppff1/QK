@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Q3</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+<string name="c1">附近餐馆</string>
+<string name="c2">最爱</string>
+<string name="c3">搜索</string>
+<string name="c4">设定</string>
+<string name="c6">订单</string>
+<string name="c7">订单</string>
+<string name="c5">再按一次退出程序</string>
+<string name="c8">外卖</string>
+<string name="c9">自取</string>
+<string name="c10">---------</string>
+<string name="c11">--</string>
+<string name="c12">名称</string>
+<string name="c13">价格</string>
+<string name="c14">时间</string>
+<string name="c15">数量</string>
+<string name="c16">餐饮</string>
+<string name="c17">这单纪录将会取消</string>
+<string name="c18">客服电话:4008508776</string>
+<string name="c19">确定</string>
+<string name="c20">取消</string>
+<string name="c21">我的最爱</string>
+<string name="c22">订单纪录</string>
+<string name="c23">帐号登记</string>
+<string name="c24">输入您的帐号</string>
+<string name="c25">输入您的密码</string>
+<string name="c26">登记</string>
+<string name="c27">立即注册</string>
+<string name="c28">帐号注册</string>
+<string name="c29">确认您的密码</string>
+<string name="c30">注册</string>
+<string name="c31">请输入您的帐号</string>
+<string name="c32">请输入您的密码</string>
+<string name="c33">请输入帐号</string>
+<string name="c34">请输入密码</string>
+<string name="c35">请输入确认密码</string>
+<string name="c36">营业中</string>
+<string name="c37">休息中</string>
+<string name="c38">提交中</string>
+<string name="c39">接单中</string>
+<string name="c40">出餐中</string>
+<string name="c41">完成</string>
+<string name="c42">取消</string>
+<string name="c43">餐馆搜索</string>
+<string name="c44">地区</string>
+<string name="c45">消费</string>
+<string name="c46">食品</string>
+<string name="c47">外卖/自取</string>
+<string name="c48">设定</string>
+<string name="c49">用户反馈</string>
+<string name="c50">分享设定</string>
+<string name="c51">喜欢Queue Free</string>
+<string name="c52">去点评一下</string>
+<string name="c53">清空缓存</string>
+<string name="c54">561.01k</string>
+<string name="c55">关于Queue Free</string>
+<string name="c56">订单</string>
+<string name="c57">共HK$</string>
+<string name="c58">餐饮</string>
+<string name="c59">尚余（1）</string>
+<string name="c60">选择</string>
+<string name="c61">确定</string>
+<string name="c62">订单资料</string>
+<string name="c63">完成</string>
+<string name="c64">可出餐</string>
+<string name="c65">等等</string>
+<string name="c66">联系人资料</string>
+<string name="c67">订单详情</string>
+    <string-array name="c68">
+        <item>订单状态</item>
+        <item>订单详情</item>
+    </string-array>
+<string name="c69">订单已提交</string>
+<string name="c70">请耐心等待商家确认</string>
+<string name="c71">订单已接单</string>
+<string name="c72">请耐心等待商家出餐</string>
+<string name="c73">订单已出餐</string>
+<string name="c74">您的订单正在路上请耐心等待</string>
+<string name="c75">商家已收餐</string>
+<string name="c76">您的订单已收餐</string>
+<string name="c77">09:59</string>
+
+</resources>

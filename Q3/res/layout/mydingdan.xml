@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/mRlcg1"
+   >
+   <RelativeLayout 
+       android:layout_width="fill_parent"
+       android:layout_height="50dp"
+               android:background="@drawable/title1"
+                  android:id="@+id/mRl13"
+       
+       >
+       <RelativeLayout 
+           android:layout_width="50dp"
+           android:layout_height="fill_parent"
+           android:padding="10dp"
+           android:id="@+id/mRl11"
+           >
+           <ImageView 
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/t5"
+               android:layout_centerInParent="true"
+               />
+       </RelativeLayout>
+                   <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/c67"
+                style="@style/text1"
+                android:id="@+id/mTvc"
+                android:layout_centerInParent="true"
+                />
+       
+       <RelativeLayout 
+           android:layout_width="50dp"
+           android:layout_height="fill_parent"
+           android:id="@+id/mRl2" android:padding="10dp"
+           android:layout_alignParentRight="true"
+           >
+       </RelativeLayout>
+       
+   </RelativeLayout>
+       <com.example.view.TabPageIndicator
+        android:id="@+id/indicator"
+        android:layout_below="@id/mRl13"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tab_unselected_pressed_example" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_below="@id/indicator"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        />
+   
+   
+   
+   
+   
+   </RelativeLayout>

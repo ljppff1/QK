@@ -1,0 +1,243 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/mRlcg1"
+   >
+   <RelativeLayout 
+       android:layout_width="fill_parent"
+       android:layout_height="50dp"
+               android:background="@drawable/title1"
+                  android:id="@+id/mRl13"
+       
+       >
+       <RelativeLayout 
+           android:layout_width="50dp"
+           android:layout_height="fill_parent"
+           android:padding="10dp"
+           android:id="@+id/mRl11"
+           >
+           <ImageView 
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/t5"
+               android:layout_centerInParent="true"
+               />
+       </RelativeLayout>
+                   <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/c62"
+                style="@style/text1"
+                android:id="@+id/mTvc"
+                android:layout_centerInParent="true"
+                />
+       
+       <RelativeLayout 
+           android:layout_width="50dp"
+           android:layout_height="fill_parent"
+           android:id="@+id/mRl2" android:padding="10dp"
+           android:layout_alignParentRight="true"
+           >
+       </RelativeLayout>
+       
+   </RelativeLayout>
+   <com.example.view.StickyScrollView 
+       android:layout_below="@id/mRl13"
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       >
+       
+       <LinearLayout 
+           android:layout_width="fill_parent"
+           android:layout_height="fill_parent"
+           android:orientation="vertical"
+           >
+           <RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:paddingTop="8dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+  >
+              <RelativeLayout 
+           android:layout_width="wrap_content"
+           android:layout_height="fill_parent"
+           android:id="@+id/mRl14"
+           android:padding="8dp"
+           android:layout_alignParentRight="true"
+           >
+           <Button 
+               android:layout_width="65dp"
+               android:layout_height="28dp"
+               android:layout_centerInParent="true"
+               android:text="@string/c16"
+                style="@style/text23"
+                android:gravity="center"
+                android:id="@+id/mBt1"
+               android:background="@drawable/t8"
+               />
+       </RelativeLayout>
+               
+   <LinearLayout 
+                  android:layout_toLeftOf="@id/mRl14"
+       
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       >
+       <RelativeLayout 
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+             android:layout_marginLeft="8dp"
+             android:layout_marginTop="4dp"
+           >
+                     <TextView 
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/mTv1"
+               style="@style/text2"
+               android:text="@string/c11"
+               />
+                  
+                  </RelativeLayout>
+                    <RelativeLayout 
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+             android:layout_marginLeft="8dp"
+             android:layout_marginTop="4dp"
+           >
+                             <TextView 
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/mTv3"
+               style="@style/text2"
+               android:text="@string/c11"
+               />
+                            
+                             
+              </RelativeLayout>
+                                        <RelativeLayout 
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+             android:layout_marginLeft="8dp"
+             android:layout_marginTop="4dp"
+           >
+               
+               <TextView 
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/mTv5"
+               style="@style/text2"
+               android:text="@string/c11"
+               />
+              </RelativeLayout>
+              
+                    </LinearLayout>
+           </RelativeLayout>
+          
+                <com.example.view.MyListView 
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/mLv1"
+         android:divider="#00000000"
+         ></com.example.view.MyListView>
+                <com.example.view.MyListView 
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/mLv2"
+         android:divider="#00000000"
+         ></com.example.view.MyListView>
+                  <RelativeLayout 
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:padding="8dp"
+           android:layout_marginTop="30dp"
+           android:layout_alignParentRight="true"
+           >
+           <Button 
+               android:layout_width="200dp"
+               android:layout_height="32dp"
+               android:layout_centerInParent="true"
+               android:text="@string/c66"
+                style="@style/text23"
+                android:gravity="center"
+                android:id="@+id/mBt5"
+               android:background="@drawable/t8"
+               />
+       </RelativeLayout>
+           
+           </LinearLayout>
+       
+   </com.example.view.StickyScrollView>
+   <ProgressBar
+            android:id="@+id/mPb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+   
+   
+   
+   
+   <RelativeLayout 
+       android:layout_width="fill_parent"
+       android:layout_height="55dp"
+       android:layout_alignParentBottom="true"
+       >
+       <ImageView 
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:src="@drawable/ss"
+           />
+       <LinearLayout 
+           android:layout_width="fill_parent"
+           android:layout_height="38dp"
+           android:layout_centerVertical="true"
+           android:orientation="horizontal"
+           >
+                  <Button 
+                      android:layout_width="0dp"
+                      android:layout_weight="1"
+                      android:layout_marginLeft="10dp"
+                      android:layout_marginRight="10dp"
+                      android:id="@+id/mBtn2"
+                      android:layout_height="wrap_content"
+                      android:text="@string/c63"
+                      style="@style/text1"
+                      android:gravity="center"
+                      android:background="@drawable/a22"
+                      />
+                  <Button 
+                      android:layout_width="0dp"
+                      android:layout_weight="1"
+                      android:layout_marginLeft="10dp"
+                      android:layout_marginRight="10dp"
+                      android:id="@+id/mBtn3"
+                      android:layout_height="wrap_content"
+                      android:text="@string/c64"
+                      style="@style/text1"
+                      android:gravity="center"
+                      android:background="@drawable/t8"
+                      />
+                                    <Button 
+                      android:layout_width="0dp"
+                      android:layout_weight="1"
+                      android:layout_marginLeft="10dp"
+                      android:layout_marginRight="10dp"
+                      android:id="@+id/mBtn4"
+                      android:layout_height="wrap_content"
+                      android:text="@string/c65"
+                      style="@style/text1"
+                      android:gravity="center"
+                      android:background="@drawable/a44"
+                      />
+                  
+       </LinearLayout>
+   </RelativeLayout>
+       
+
+   </RelativeLayout>

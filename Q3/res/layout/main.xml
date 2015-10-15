@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+>
+
+   
+    <FrameLayout
+        android:id="@+id/main_framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+    </FrameLayout>
+<RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+    <RadioGroup
+        android:id="@+id/main_tab_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/rb1"
+            style="@style/main_tab_item"
+             android:checked="true"
+            android:drawablePadding="0dp"            android:textColor="@color/wp_text_selector"
+            
+            android:drawableTop="@drawable/bt1"
+            android:text="@string/c1" />
+
+        <RadioButton
+            android:id="@+id/rb2"
+                        android:drawablePadding="0dp"
+                        android:textColor="@color/wp_text_selector"
+            
+            style="@style/main_tab_item"
+            android:drawableTop="@drawable/bt2"
+            android:text="@string/c2" />
+        <RadioButton
+            android:id="@+id/rb3"
+                        android:drawablePadding="0dp"
+            style="@style/main_tab_item"            android:textColor="@color/wp_text_selector"
+            
+            android:drawableTop="@drawable/bt3"
+            android:text="@string/c3" />
+        <RadioButton
+            android:id="@+id/rb4"
+            style="@style/main_tab_item"
+            android:drawableTop="@drawable/bt4"
+                        android:drawablePadding="0dp"
+            android:textColor="@color/wp_text_selector"
+            android:text="@string/c4" />
+        <RadioButton
+            android:id="@+id/rb5"
+            style="@style/main_tab_item"
+            android:drawableTop="@drawable/bt5"
+                        android:drawablePadding="0dp"
+                        android:textColor="@color/wp_text_selector"
+            
+            android:text="@string/c6" />
+        
+    </RadioGroup>
+    <LinearLayout 
+                        android:layout_width="fill_parent"  
+        android:layout_height="50dp"
+                        android:orientation="horizontal"  
+                android:background="#00000000"  
+        
+        >
+        
+    </LinearLayout>
+</RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,163 @@
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+   >
+      <ProgressBar
+            android:id="@+id/mPb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+                    
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/mRlcg1"
+   >
+   
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    >
+     <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:paddingLeft="5dp"
+        android:id="@+id/mRl3"
+        >
+                <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/a111"
+            android:id="@+id/mIv1"
+            android:layout_centerVertical="true"
+            />
+         
+               <TextView 
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="6dp"
+               android:id="@+id/mTv1"
+               android:layout_centerVertical="true"
+               style="@style/text2"
+               android:layout_toRightOf="@id/mIv1"
+               android:text="@string/c10"
+               />
+          
+     
+        </RelativeLayout>
+        <ImageView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/x2"
+            />
+        
+                    <com.example.view.MyListView 
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/mLv1"
+         android:divider="#00000000"
+         ></com.example.view.MyListView>
+    
+                    <LinearLayout 
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        >
+              <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:paddingLeft="5dp"
+        android:id="@+id/mRl4"
+        >
+                <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/a222"
+            android:id="@+id/mIv2"
+            android:layout_centerVertical="true"
+            />
+         
+               <TextView 
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="6dp"
+               android:id="@+id/mTv2"
+               android:layout_centerVertical="true"
+               style="@style/text2"
+               android:layout_toRightOf="@id/mIv2"
+               android:text="@string/c10"
+               />
+          
+     
+        </RelativeLayout>
+        <ImageView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/x2"
+            />
+                <TextView 
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="22dp"
+               android:id="@+id/mTv3"
+               android:layout_centerVertical="true"
+               style="@style/text2"
+               android:layout_marginTop="8dp"
+               android:text="@string/c10"
+               />
+                <TextView 
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="22dp"
+               android:id="@+id/mTv4"
+               android:layout_centerVertical="true"
+               style="@style/text2"
+               android:layout_marginTop="8dp"
+               android:text="@string/c10"
+               />
+                                <TextView 
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="22dp"
+               android:id="@+id/mTv5"
+               android:layout_centerVertical="true"
+               style="@style/text2"
+               android:layout_marginTop="8dp"
+               android:text="@string/c10"
+               />
+                                <TextView 
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="22dp"
+               android:id="@+id/mTv6"
+               android:layout_centerVertical="true"
+               style="@style/text2"
+               android:layout_marginTop="8dp"
+               android:text="@string/c10"
+               />
+                                        <TextView 
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="22dp"
+               android:id="@+id/mTv7"
+               android:layout_centerVertical="true"
+               style="@style/text2"
+               android:layout_marginTop="8dp"
+               android:text="@string/c10"
+               />
+                                
+                        
+                    </LinearLayout>
+</LinearLayout>
+
+
+   </ScrollView>
+   </RelativeLayout>
